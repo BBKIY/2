@@ -11,7 +11,7 @@ namespace ConsoleApp3
         static void Main(string[] args)
         {
             string name;
-            string sign;
+            string zodiacSign;
             string job;
             int age;
             Console.Write("Ваше имя: ");
@@ -19,11 +19,11 @@ namespace ConsoleApp3
             Console.Write("Ваш возраст: ");
             age = Convert.ToInt32(Console.ReadLine());
             Console.Write("Ваш знак зодиака: ");
-            sign = Console.ReadLine();
+            zodiacSign = Console.ReadLine();
             Console.Write("Ваша профессия: ");
             job = Console.ReadLine();
 
-            Console.WriteLine("Вас зовут " + name + ", вам " + age + " лет. Ваш знак зодиака " + sign + ", а ваша профессия " + job);
+            Console.WriteLine("Вас зовут " + name + ", вам " + age + " лет. Ваш знак зодиака " + zodiacSign + ", а ваша профессия " + job);
         }
     }
 }
